@@ -1,0 +1,25 @@
+{
+  "name": "pangujs-micro-app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=7002 http-server ./src --cors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangujs/pangujs-micro-app1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pangujs/pangujs-micro-app1/issues"
+  },
+  "homepage": "https://github.com/pangujs/pangujs-micro-app1#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "http-server": "^14.1.1"
+  }
+}
